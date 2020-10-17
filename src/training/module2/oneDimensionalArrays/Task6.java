@@ -4,6 +4,9 @@ import java.util.stream.IntStream;
 
 public class Task6 {
 
+    //Задана последовательность N вещественных чисел. Вычислить сумму чисел, порядковые номера которых
+    //являются простыми числами
+
     public static int getSumByPrimesIndexes(int[] array) {
         return IntStream.range(2, array.length)
                 .filter(Task6::isPrime)

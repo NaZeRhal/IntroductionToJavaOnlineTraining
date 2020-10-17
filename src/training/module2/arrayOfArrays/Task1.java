@@ -5,6 +5,8 @@ import java.util.List;
 
 public class Task1 {
 
+    //Дана матрица. Вывести на экран все нечетные столбцы, у которых первый элемент больше последнего
+
     public static void printColumnsByCondition(int[][] matrix) {
         List<Integer> columnIndexes = new ArrayList<>();
         int rowsCount = matrix.length;

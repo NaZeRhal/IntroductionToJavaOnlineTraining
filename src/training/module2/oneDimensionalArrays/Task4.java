@@ -6,6 +6,8 @@ import java.util.stream.Collectors;
 
 public class Task4 {
 
+    //Даны действительные числа а1 ,а2 ,..., аn . Поменять местами наибольший и наименьший элементы
+
     public static int[] changeMinMax(int[] array) {
         List<Integer> integerList = Arrays.stream(array).boxed().collect(Collectors.toList());
         List<Integer> sortedArrayList = Arrays.stream(array).boxed().sorted().collect(Collectors.toList());

@@ -2,6 +2,9 @@ package training.module2.arrayOfArrays;
 
 public class Task2 {
 
+
+    //Дана квадратная матрица. Вывести на экран элементы, стоящие на диагонали
+
     public static void printDiagonal(int[][] matrix) {
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[i].length; j++) {

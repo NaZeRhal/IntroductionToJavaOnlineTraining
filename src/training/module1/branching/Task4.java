@@ -2,6 +2,9 @@ package training.module1.branching;
 
 public class Task4 {
 
+    //Заданы размеры А, В прямоугольного отверстия и размеры х, у, z кирпича. Определить, пройдет ли кирпич через
+    //отверстие.
+
     public static boolean isBrickFitHole(int[] holeSize, int[] brickSize) {
         if (holeSize.length != 2 || brickSize.length != 3) {
             return false;

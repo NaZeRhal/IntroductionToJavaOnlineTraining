@@ -1,10 +1,11 @@
 package training.module1.cycles;
 
 import java.math.BigInteger;
-import java.util.function.LongUnaryOperator;
 import java.util.stream.LongStream;
 
 public class Task4 {
+
+    //Составить программу нахождения произведения квадратов первых двухсот чисел
 
     public static String productSquares(int x, int y) {
         return LongStream.rangeClosed(x, y)

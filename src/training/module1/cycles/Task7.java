@@ -8,6 +8,10 @@ import java.util.stream.IntStream;
 
 public class Task7 {
 
+    //Для каждого натурального числа в промежутке от m до n вывести все делители, кроме единицы и самого числа.
+    //m и n вводятся с клавиатуры
+
+
     public static void printDividersInInterval(int m, int n) {
         IntStream.rangeClosed(m, n).forEach(num -> {
             if (getDividers(num).size() == 0) {

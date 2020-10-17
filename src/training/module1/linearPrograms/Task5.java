@@ -2,6 +2,10 @@ package training.module1.linearPrograms;
 
 public class Task5 {
 
+    // Дано натуральное число Т, которое представляет длительность прошедшего времени в секундах. Вывести
+    //данное значение длительности в часах, минутах и секундах в следующей форме:
+    //ННч ММмин SSc.
+
     public static String getTimeFromSeconds(int seconds) {
         if (seconds < 0) {
             return "input parameter is a negative number";

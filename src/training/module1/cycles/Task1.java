@@ -5,6 +5,9 @@ import java.util.stream.IntStream;
 
 public class Task1 {
 
+    //Напишите программу, где пользователь вводит любое целое положительное число. А программа суммирует
+    //все числа от 1 до введенного пользователем числа.
+
     public static void main(String[] args) {
         System.out.println("Please, enter positive integer:");
         int num = 0;

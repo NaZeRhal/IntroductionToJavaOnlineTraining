@@ -5,6 +5,7 @@ import java.util.stream.Collectors;
 
 public class Task6 {
 
+    //Из заданной строки получить новую, повторив каждый символ дважды
     public static void changeLine(String line) {
         String changedLine = Arrays.stream(line.split(""))
                 .map(s -> s + s)

@@ -5,6 +5,8 @@ import java.util.Map;
 
 public class Task9 {
 
+    //Посчитать количество строчных (маленьких) и прописных (больших) букв в введенной строке. Учитывать только английские
+    //буквы
     public static Map<String, Integer> countLowerAndUpperCaseLetters(String text) {
         Map<String, Integer> resultMap = new HashMap<>();
         resultMap.put("lowerCase", 0);
